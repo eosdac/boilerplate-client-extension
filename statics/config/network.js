@@ -5,7 +5,7 @@ export default {
   'network': {
     'name': 'jungle',
     'blockchain': 'eos',
-    'host': 'jungle2.cryptolions.io',
+    'host': 'api.jungle.alohaeos.com',
     'port': 443,
     'protocol': 'https',
     'chainId': 'e70aaab8997e1dfce58fbfac80cbbb8fecec7b99cf982a9444273cbc64c41473'
@@ -13,19 +13,22 @@ export default {
 
   'accounts': {
     'directory': 'dacdirectory',
-    'treasuryAccount': {
-      'name': 'eosdacdoshhq'
-    },
-    'authAccount': {
-      'name': 'dacauthority'
-    }
+    'treasury': 'eosdacdoshhq'
+  },
+
+  'system_token': {
+    'contract': 'eosio.token',
+    'symbol': 'EOS',
+    'precision': 4
+  },
+
+  'dac_token': {
+    'contract': 'kasdactokens',
+    'symbol': 'KASDAC',
+    'precision': 4
   },
 
   'contracts': {
-    'token': {
-      'name': 'kasdactokens',
-      'symbol': 'KASDAC'
-    },
     'system_token': {
       'name': 'eosio.token',
       'symbol': 'EOS',
@@ -47,12 +50,6 @@ export default {
     },
     'wpproposal': {
       'name': 'dacproposals'
-    },
-    'escrow': {
-      'name': 'eosdacescrow'
-    },
-    'directory': {
-      'name': 'dacdirectory'
     },
     'referendum': {
       'name': 'eosdacvoices'
@@ -90,10 +87,7 @@ export default {
   ],
 
   'api': {
-    'default_eos_node': 'https://jungle2.cryptolions.io:443',
-    'bpnodes': 'https://eosdac.io/topnodes.json',
     'dac_api': 'http://127.0.0.1:8383/v1/eosdac'
-
   },
 
   'external': {

@@ -55,8 +55,7 @@ export default {
 
   computed: {
     ...mapGetters({
-      getAccountName: 'user/getAccountName',
-      getIsDark: 'ui/getIsDark'
+      getAccountName: 'user/getAccountName'
     })
   },
 
