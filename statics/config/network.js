@@ -29,30 +29,11 @@ export default {
   },
 
   'contracts': {
-    'system_token': {
-      'name': 'eosio.token',
-      'symbol': 'EOS',
-      'decimals': 4
-    },
-    'custodian': {
-      'name': 'dacelections',
-      'memo': 'dacelections',
-      'enable_voting': true
-    },
     'bot': {
       'name': 'piecesnbitss'
     },
     'system_msig': {
       'name': 'eosio.msig'
-    },
-    'dac_msig': {
-      'name': 'dacmultisigs'
-    },
-    'wpproposal': {
-      'name': 'dacproposals'
-    },
-    'referendum': {
-      'name': 'eosdacvoices'
     }
   },
 
