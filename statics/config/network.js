@@ -29,9 +29,6 @@ export default {
   },
 
   'contracts': {
-    'bot': {
-      'name': 'piecesnbitss'
-    },
     'system_msig': {
       'name': 'eosio.msig'
     }
