@@ -2,12 +2,12 @@
   <q-page class="bg-bg2" style="overflow:hidden">
     <div class="gradient-bg-primary" style="height:10px"></div>
     <div class="q-pa-md">
-      <div class="round-borders shadow-4 bg-bg1 q-pa-md">
+      <div class="rounded-borders shadow-4 bg-bg1 q-pa-md">
         <div class="row gutter-sm">
           <div class="col-xs-12 col-lg-9 ">
             <div class="">
               <div class="q-mb-md">
-                <span class="q-title">{{ $configFile.get("dacname") }}</span>
+                <span class="q-title">{{ $dir.title }}</span>
               </div>
               <div class="text-text2">
                 <p>{{ $t("home.description_p1") }}</p>

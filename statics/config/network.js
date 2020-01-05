@@ -1,30 +1,29 @@
 export default {
-  'dacName': 'Example DAC',
-  'dacId': 'eos.dac',
+  'dacId': 'newclient',
+
+  'endpoints': [
+    'https://jungle.eosdac.io',
+    'https://api.jungle.alohaeos.com'
+  ],
+
+  'pricefeed': {
+    api: 'newdex',
+    newdex: { symbol: 'eosdactokens-eosdac-eos', endpoint: 'https://api.newdex.io/v1/ticker' }
+  },
 
   'network': {
     'name': 'jungle',
     'blockchain': 'eos',
-    'host': 'api.jungle.alohaeos.com',
-    'port': 443,
-    'protocol': 'https',
     'chainId': 'e70aaab8997e1dfce58fbfac80cbbb8fecec7b99cf982a9444273cbc64c41473'
   },
 
   'accounts': {
-    'directory': 'dacdirectory',
-    'treasury': 'eosdacdoshhq'
+    'directory': 'dacdirectory'
   },
 
   'system_token': {
     'contract': 'eosio.token',
     'symbol': 'EOS',
-    'precision': 4
-  },
-
-  'dac_token': {
-    'contract': 'kasdactokens',
-    'symbol': 'KASDAC',
     'precision': 4
   },
 
