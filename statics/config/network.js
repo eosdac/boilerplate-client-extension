@@ -1,5 +1,5 @@
 export default {
-  'dacId': 'newclient',
+  'dacId': 'light',
 
   'endpoints': [
     'https://jungle.eosdac.io',
