@@ -1,5 +1,5 @@
 export default {
-  'dacId': 'eos.dac',
+  'dacId': 'light',
 
   'endpoints': [
     'https://jungle.eosdac.io',
@@ -64,7 +64,8 @@ export default {
   ],
 
   'api': {
-    'dac_api': 'http://127.0.0.1:8383/v1/eosdac'
+    'dac_api': 'http://127.0.0.1:8383/v1/eosdac',
+    'dac_ws': 'ws://api-jungle.eosdac.io:3030'
   },
 
   'external': {
