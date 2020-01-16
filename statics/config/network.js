@@ -70,6 +70,7 @@ export default {
 
   'external': {
     'homepage': 'https://eosdac.io',
-    'explorer': 'https://jungle.bloks.io'
+    'explorer_transaction': 'https://jungle.bloks.io/transaction/{transaction_id}',
+    'explorer_msig': 'https://jungle.bloks.io/msig/{proposer}/{proposal_name}'
   }
 }
