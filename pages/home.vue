@@ -139,9 +139,9 @@
               <div class="text-h6 q-mb-lg">{{ $t("index.join_discord") }}</div>
               <div class="q-body-1 text-text2 relative-position">
                 <q-icon
-                  name="icon-social-discord-com"
-                  size="48px"
-                  class="absolute-top-left"
+                        name="icon-social-discord-com"
+                        size="48px"
+                        class="absolute-top-left"
                 />
                 <div style="display:inline-block;margin-left:55px;margin-top:-3px">
                   {{ $t("index.discord_description") }}
@@ -150,15 +150,39 @@
             </div>
             <div class="q-mt-sm">
               <q-btn
-                class="float-right"
-                color="secondary"
-                :label="$t('index.open_discord')"
-                @click.native="openURL($dir.getRef($dir.REF_DISCORD_URL))"
+                      class="float-right"
+                      color="secondary"
+                      :label="$t('index.open_discord')"
+                      @click.native="openURL($dir.getRef($dir.REF_DISCORD_URL))"
               />
             </div>
           </div>
         </div>
-        <div class="col-md-4 col-sm-12"></div>
+        <div class="col-md-4 col-sm-12" v-if="$dir.getRef($dir.REF_TELEGRAM_URL)">
+          <div class="column justify-between bg-primary shadow-14 rounded-borders full-height q-pa-md animate-pop">
+            <div>
+              <div class="text-h6 q-mb-lg">{{ $t("index.join_telegram") }}</div>
+              <div class="q-body-1 text-text2 relative-position">
+                <q-icon
+                        name="mdi-telegram"
+                        size="48px"
+                        class="absolute-top-left"
+                />
+                <div style="display:inline-block;margin-left:55px;margin-top:-3px">
+                  {{ $t("index.telegram_description") }}
+                </div>
+              </div>
+            </div>
+            <div class="q-mt-sm">
+              <q-btn
+                      class="float-right"
+                      color="secondary"
+                      :label="$t('index.open_telegram')"
+                      @click.native="openURL($dir.getRef($dir.REF_TELEGRAM_URL))"
+              />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </q-page>

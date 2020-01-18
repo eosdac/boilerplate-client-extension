@@ -1,11 +1,14 @@
 export default {
   'index': {
-    'discord_description': 'Review Current Proposals',
+    'join_discord': 'Join our Community on Discord',
+    'discord_description': '',
+    'open_discord': 'open discord',
+    'join_telegram': 'Join our Community on Telegram',
+    'telegram_description': '',
+    'open_telegram': 'open telegram',
     'error_occured': 'Something went wrong!',
     'review_proposals': 'Review Current Proposals',
-    'join_discord': 'Join our Community on Discord',
     'key_features': 'Key Features',
-    'open_discord': 'open discord',
     'read_constitution': 'Constitution',
     'reg_as_cust_cand': 'Candidate Registration',
     'reg_as_member': 'Membership',
