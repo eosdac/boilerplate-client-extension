@@ -107,7 +107,7 @@
           </div>
         </div>
       </div>
-      <div class="row q-col-gutter-md justify-center q-px-md row_boxes_index_page">
+      <div class="row q-col-gutter-md justify-left q-px-md row_boxes_index_page">
         <div class="col-md-4 col-sm-12" v-if="$dir.getRef($dir.REF_HOMEPAGE)">
           <div class="column justify-between bg-primary shadow-14 rounded-borders full-height q-pa-md animate-pop">
             <div>
