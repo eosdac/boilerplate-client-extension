@@ -2,8 +2,8 @@ export default {
   'dacId': 'light',
 
   'endpoints': [
-    'https://jungle.eosdac.io',
-    'https://api.jungle.alohaeos.com'
+    'https://jungle3.eosdac.io',
+    'https://jungle3.eossweden.org'
   ],
 
   'pricefeed': {
